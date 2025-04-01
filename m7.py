@@ -28,7 +28,7 @@ model_name = st.sidebar.text_input("Model Name", value="openthinker:32b")
 api_key = st.sidebar.text_input("API Key", value="sk-no-key-needed", type="password")
 base_url = st.sidebar.text_input(
     "Base URL", 
-    value="https://unknown-veronique-finsocialdigitalsystem-cf02d63f.koyeb.app/v1"
+    value=""
 )
 
 # Static template file path
