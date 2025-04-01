@@ -24,8 +24,8 @@ st.sidebar.markdown("""
 </div>
 """, unsafe_allow_html=True)
 st.sidebar.header("Model Configuration")
-model_name = st.sidebar.text_input("Model Name", value="openthinker:32b")
-api_key = st.sidebar.text_input("API Key", value="sk-no-key-needed", type="password")
+model_name = st.sidebar.text_input("Model Name", value="")
+api_key = st.sidebar.text_input("API Key", value="", type="password")
 base_url = st.sidebar.text_input(
     "Base URL", 
     value=""
