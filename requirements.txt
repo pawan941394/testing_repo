@@ -2,4 +2,3 @@ streamlit
 sentence-transformers
 numpy
 agno
-json
